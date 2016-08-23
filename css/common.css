@@ -1,0 +1,61 @@
+* {	-webkit-user-select: none;
+	-ms-touch-select: none;
+/*	-ms-touch-action: none;*/
+}
+html{font-size:62.5%; width:100%; overflow-x:hidden;}
+body {	margin: 0;padding: 0;width: 100%;height: 100%;font-family:Verdana,微软雅黑;color: #6c6c6c;background-color:#ebebeb;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);	-webkit-text-size-adjust:none;}
+
+.tabtop{width:50%;color:#656565;float:left;height:3.5rem;position: relative;}
+.content{ width:100%; margin-top:0.5rem; text-align:center;}/*关于和反馈主页面*/
+
+/* help页面 */
+/*#pages{ width:100%; position:absolute; left:0; top:0;}*/
+.arrow{width: 0;height: 0;border-bottom: 0.8rem solid #c3c3c3;border-right: 0.8rem solid transparent;border-left: 0.8rem solid transparent;float: right;}
+#help_top_tab{background-color:#fff; width:100%;position:fixed;left:0;top:0;height:4rem;font-size:2rem;line-height:3rem;text-align:center;z-index:9998;}/*顶部切换*/
+#tabtop_left{ color:#EBC560;}
+#tabtop_right{ color:#000000;}
+#help_slide{background-color:#ebc560;width:50%;height:0.5rem;position:absolute; left:0;bottom:0;float:left;}
+#help_page{ margin-top:4.4rem;font-size:1.4rem;}
+#help_title{width:96%; margin:0 auto;height:3rem;line-height:4rem;}
+#help_ul_father{width:96%; margin-left: 2%; background-color:#FFFFFF;}
+#help_ul{ padding:0 1rem;}
+.help_list{font-size:1.4rem;color:#656565;}
+.help_list div{ margin-top:1rem; color:#838383;}
+.help_list img{ float:right;}
+#help_ul li{border-bottom:1px solid #eaeaea;list-style-type:none;padding:1rem;}
+
+#help_page2{margin-top:4.4rem;font-size:1.4rem;}
+#help_page2 ul{ list-style:none;}
+#help_title2{ width:88%;margin:0 auto; font-size:1.6rem; color:#555555;font-weight: bold;}/* 常见问题 */
+.help_subtitle{ margin-left:1rem; font-size:1.6rem; color:#555555; line-height:2rem;}/* 子标题 */
+#help_ul2{ width:96%;margin:0 auto; padding:0; text-align:center;}
+#help_ul2 ul{ margin-right:1rem;}
+.img_left img{width:48%; height:auto; float:left; margin-top:1rem; margin-bottom:0.5rem; margin-right:2%;}
+.img_right img{width:48%; height:auto; margin-top:1rem; margin-bottom:0.5rem; margin-left:2%;}
+.help_list2{border-bottom:1px solid #CBCBCB; clear:left; text-align:left; margin-left:-2.5em; margin-top:1rem;}
+.help_list2 ul{margin-left: -2rem;}
+#help_coution{text-align:left; margin:0 5% 2rem;}
+
+/* about页面 */
+.aboutli {padding: 1rem 1rem;color:#686868;font-size:1.4rem;}
+#about_logo{width:80%; margin:0 auto;}
+#about_text{width:80%; margin:0 auto;}
+#about_ul_father{width:60%; margin-left: 22%;}
+#aboutul{ display:flex; justify-content:center; flex-wrap:wrap; align-items:baseline;width:100%;list-style:none;margin:0;padding:0;text-align:left; }
+.aboutli{ width:12em;display:flex;}
+.listname{display:flex;width:4.5em;float:left;}
+.aboutli a{color:#4b97d1; text-decoration:none;}
+.des{font-size:1.4rem;line-height:1.5rem;margin: 0; text-align:justify; color:#656565;}
+.aboutimg{width:auto;height:1.2rem;vertical-align:middle;float:left;}
+#about_img_logo{width:100%;height:auto;}
+#version_name{font-size: 1.6rem;}
+.download_code{width: 40%;}
+
+/* feedback页面 */
+#textArea{width:80%; margin:0 auto;height:16rem;overflow:hidden;resize:none;padding:1rem;	font-size:1.4rem; line-height:1.6rem;background-color:#fff;border:0px solid #cccccc;border-radius:0.3rem;}
+#feedEmail{	font-size:1.4rem;width:80%;margin:1rem auto;padding:1rem;background-color:#fff;border:0px solid #cccccc;border-radius:0.3rem;}
+#feedButton{width:80%;margin:0 auto;font-size:1.4rem;color:#fff;padding:1rem;background-color:#ebc560;border-radius:0.3rem;border:0px solid #dea82c;}
+#downBox{width:80%;margin:0 auto;display:block;padding:1rem;font-size:1.4rem;line-height:1.5rem}
+.downText{text-align:left;}
+#feedInt{color:#989898;}
+#feedWechat{color:#4b97d1;}
